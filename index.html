@@ -259,6 +259,11 @@
   <div id="bubbles-text"></div>
 
   <script>
+    <body>
+  <div class="message">❤️ DT Nghĩa ❤️</div>
+  <div id="bubbles-text"></div>
+
+  <script>
     const messages = [
       "I Love You T.Nghia 💛",
       "👻 Đàm Trọng Nghĩa 👻",
@@ -288,7 +293,6 @@
 
       setTimeout(() => {
         const rect = bubble.getBoundingClientRect();
-
         if (rect.right > window.innerWidth) {
           bubble.style.left = `${window.innerWidth - rect.width - 10}px`;
         }
