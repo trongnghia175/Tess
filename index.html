@@ -89,7 +89,7 @@
 
     .text-bubble {
       position: absolute;
-      font-size: 18px;
+      font-size: 14px;
       font-family: 'Cursive', sans-serif;
       color: #d63384;
       background-color: rgba(255, 255, 255, 0.7);
@@ -169,7 +169,7 @@
 
       if (!isPortrait) {
         if (!bubbleInterval) {
-          bubbleInterval = setInterval(createTextBubble, 500);
+          bubbleInterval = setInterval(createTextBubble, 2000); // Hiện 1 bóng mỗi 2 giây
         }
       } else {
         clearInterval(bubbleInterval);
